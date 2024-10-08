@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nature_rain</title>
+</head>
+<body  style=" background-color: bisque; background-repeat: no repeat; background-size: cover;">
+    <center>
+    <button id="rain" onclick="rain()">rain</button>
+    <video id="nature rain" autoplay loop muted plays-inline>
+        <source src="narure rain.mp4" type="video/mp4">
+        </video>
+    <button id="norain" onclick="norain()">norain</button>
+    <video id="nature no rain" autoplay loop muted plays-inline>
+        <source src="nature no rain.mp4" type="video/mp4">
+        </video>
+    </center>
+</body>
+<script>
+    function rain(){
+        document.getElementById('nature rain').style.display='inline'
+        document.getElementById('nature no rain').style.display='none'
+
+    }  function norain(){
+        document.getElementById('nature no rain').style.display='inline'
+        document.getElementById('nature  rain').style.display='none'
+
+    }
+</script>
+</html>
